@@ -2,15 +2,15 @@
 
 source etc/banner
 
-echo -e "executing: ${LIGHTGREEN}          CHEN-LITE OBB TOOL${NOCOLOR}"
+echo -e "executing: ${LIGHTGREEN}          MAFIA-HACKER VIP TOOL${NOCOLOR}"
 echo "----------------------------"
 
 chmod +x etc/*.bms
 
-if [[ -d "/sdcard/Download/CHEN-LITE_obb" ]]; then
+if [[ -d "/sdcard/Download/MAFIA-HACKER_obb" ]]; then
   echo ""
 else
-  mkdir /sdcard/Download/CHEN-LITE_obb
+  mkdir /sdcard/Download/MAFIA-HACKER_obb
 fi
 
    pak_folder="/data/data/com.termux/files/home/PakTool/pak_folder"
@@ -26,7 +26,7 @@ fi
 
  function unpack {
    prompt="Please select a file to unpack:"
-   options=($(find /sdcard/Download/CHEN-LITE_obb -name "*.pak" -o -name "*.obb"))
+   options=($(find /sdcard/Download/MAFIA-HACKER_obb -name "*.pak" -o -name "*.obb"))
 
    PS3="$prompt "
    select opt in "${options[@]}" "Quit" ; do 
@@ -55,7 +55,7 @@ fi
 
  function repack {
   prompt="Please select a file to repack:"
-  options=($(find /sdcard/Download/CHEN-LITE_obb -name "*.pak" -o -name "*.obb"))
+  options=($(find /sdcard/Download/MAFIA-HACKER_obb -name "*.pak" -o -name "*.obb"))
 
   PS3="$prompt "
   select opt in "${options[@]}" "Quit" ; do 
