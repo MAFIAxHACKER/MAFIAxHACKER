@@ -9,7 +9,7 @@ echo "----------------------------"
 quickbms_dir=$PREFIX/share/quickbms
 
 function redirect {
- echo -e "${LIGHTGREEN}STARTING CHEN-LITE${NOCOLOR}"
+ echo -e "${LIGHTGREEN}STARTING MAFIA-HACKER${NOCOLOR}"
  echo -ne '#####                     (33%)\r'
  sleep 1
  echo -ne '#############             (66%)\r'
