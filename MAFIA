@@ -161,21 +161,21 @@ fi
 }
 
 PS3='Please enter your choice: '
-options=("Unpack" "Repack" "Search_Text" "Error_Fix" "Quit")
+options=("MAFIA-UNPACK" "MAFIA-REPACK" "MAFIA-SEARCH_DAT" "MAFIA-ERROR_FIX" "Quit")
 select opt in "${options[@]}"
 do
   case $opt in
-    "Unpack")
+    "MAFIA-UNPACK")
       unpack
       break
       ;;
-    "Repack")
+    "MAFIA-REPACK")
       repack
       ;;
-    "Search_Text")
+    "MAFIA-SEARCH_DAT")
       Search_Text
       ;;
-    "Error_Fix")
+    "MAFIA-ERROR_FIX")
       Error_Fix
       ;;
     "Quit")
