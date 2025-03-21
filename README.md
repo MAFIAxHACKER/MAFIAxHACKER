@@ -6,6 +6,7 @@ termux-setup-storage
 ```
 apt update && apt upgrade
 ```
+pkg install libdw
 ```
 pkg install git
 ```
